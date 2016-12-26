@@ -1,0 +1,53 @@
+#errorMsg
+{
+    display: none;
+}
+.mainContainer
+{
+
+    padding: 20px;
+}
+.time
+{
+    color: lightgray;
+}
+#tweetBox
+{
+    border: 1px solid green;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+#postError
+{
+    display: none;
+}
+#postSuccess
+{
+    display: none;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+#toggleLogin
+{
+    margin-right: 15px;
+}
